@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Season</title>
+
+    <style>
+        body {
+            margin: auto;
+            padding: 0px;
+           background: url('https://i.pinimg.com/originals/e3/f1/b0/e3f1b0c98b574ba701260aa3b8fb689e.jpg');
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            top: 20px;
+            left: 34px;
+            position: absolute;
+
+        }
+
+        .left img {
+            width: 100px;
+            margin: -33px auto;
+
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            width: 40%;
+            margin: 12px auto;
+            display: block;
+            background-color: black;
+            border-radius: 5px;
+
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .navbar li a {
+            color: whitesmoke;
+            text-decoration: none;
+            padding: 12px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: gray;
+            text-decoration: underline;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            padding: 3px 4px;
+            border: 2px solid rgb(66, 66, 66);
+            border-radius: 5px;
+            font-size: 15x;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(44, 44, 44);
+        }
+
+        .container {
+            /* border: 2px solid green; */
+            margin: 40px auto;
+            padding: 33px 48px;
+            width: 33%;
+            border-radius: 2px;
+            background-color: black;
+            color: cornsilk;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .fg input {
+            font-size: 14px;
+            margin: 2px auto;
+            padding: 6px;
+            text-align: center;
+            display: block;
+            width: 66%;
+        }
+
+        .bt {
+            display: block;
+            width: 33%;
+            margin: 12px auto;
+            padding: 2px;
+            background-color: rgb(78, 203, 219);
+            border: cornsilk;
+            border-radius: 12px;
+
+        }
+
+        .bt:hover {
+            background-color: brown;
+        }
+
+        h4 {
+            margin: -2px 5px;
+        }
+
+        .ls {
+            margin: -26px auto;
+            display: block;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .bttn {
+            margin: auto;
+            padding: 3px 4px;
+            width: 200px;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: rgb(199, 0, 0);
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="ts2.png" alt="TechSeason">
+            <h4>Tech Season</h4>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Feedback</button>
+            <button class="btn">Contact us</button>
+        </div>
+
+    </header>
+    <hr>
+    <div class="container" id="box1">
+        <h1>Welcome to our website</h1>
+        <form action="no.php">
+            <div class="fg">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="fg">
+                <input type="text" Email"" placeholder="enter your email">
+            </div>
+            <div class="fg">
+                <input type="text" Mobile Number"" placeholder="enter your mobile number">
+            </div>
+            <button class="bt">Submit</button>
+        </form>
+    </div>
+    <div class="ls">
+        <button class="bttn">Login</button>
+        <button class="bttn">Sign Up</button>
+    </div>
+</body>
+
+</html>
